@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Palju_sinule.MainPage"
+             BackgroundColor="#b4dbde"
+             >
+    <StackLayout>
+        <Picker x:Name="friendPicker" Title="Выбрать лучшего друга.." TitleColor="Black" TextColor="Black"/>
+        <Label x:Name="maill" Text="" HorizontalOptions="Center" TextColor="Black"/>
+        <Label x:Name="num" Text="" HorizontalOptions="Center" TextColor="Black"/>
+        <Button x:Name="pozd" Text="Поздравить" BackgroundColor="#d1dbbf" TextColor="Black"/>
+        <Label x:Name="state" Text="Поздравить с смс" HorizontalOptions="CenterAndExpand" FontSize="Large" TextColor="Black"/>
+        <Label Text="Или по почте" HorizontalOptions="CenterAndExpand" FontSize="Large" TextColor="Black"/>
+        <Switch x:Name="type" IsToggled="false" HorizontalOptions="CenterAndExpand" />
+        <Image Source="PUTIN.jpg" HeightRequest="400" WidthRequest="300"/>
+    </StackLayout>
+
+</ContentPage>
